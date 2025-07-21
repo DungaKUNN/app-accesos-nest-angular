@@ -1,0 +1,14 @@
+<h2>Listado de Aplicaciones</h2>
+<a routerLink="/aplicaciones/nueva">+ Nueva Aplicación</a>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>ID</th>
+    <th>Descripción</th>
+    <th>Estado</th>
+  </tr>
+  <tr *ngFor="let app of aplicaciones">
+    <td>{{ app.idaplicacion }}</td>
+    <td>{{ app.descripcion }}</td>
+    <td>{{ app.estado ? 'Activo' : 'Inactivo' }}</td>
+  </tr>
+</table>
