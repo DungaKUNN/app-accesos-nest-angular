@@ -10,8 +10,8 @@ Este proyecto implementa una solución fullstack para administrar accesos a sist
 ## 🚀 Cómo levantar el proyecto (modo Docker)
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu_usuario/tu_repo.git
-cd tu_repo
+git clone https://github.com/DungaKUNN/app-accesos-nest-angular.git
+cd app-accesos-nest-angular
 ```
 2. Levanta los servicios:
 ```bash
